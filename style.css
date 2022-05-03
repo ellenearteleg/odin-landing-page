@@ -1,0 +1,175 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&family=Roboto:wght@400;700&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: "Roboto", sans-serif;
+    
+}
+
+.cream-bg {
+    background-color:#FDFAF6;
+}
+
+.blue-bg {
+    background-color: #99c3f9;
+}
+
+p {
+    line-height: 1.5;
+    
+}
+
+.wrapper {
+    padding: 50px 90px;
+}
+
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 40px;
+
+}
+
+header .logo {
+    height: 70px;
+    width: auto;
+}
+
+nav ul {
+    display: flex;
+}
+
+.nav-links a {
+    text-decoration: none;
+    margin-left: 50px; 
+    color: #4B6587;
+    font-weight: 700;
+}
+
+.nav-links li {
+list-style-type:none;
+}
+
+.nav-links a:hover{
+    color:#005BD1;
+    text-decoration: overline;
+}
+
+.hero-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+    margin: 0 0 50px 0;
+}
+
+
+.hero-txt h1 {
+    font-size: 2.8em;
+    color: #4D88D4; 
+    margin-bottom: 25px;
+}
+
+.signup {
+    display: flex;
+    height: 40px;
+    width: 100px;
+    background-color: #4D88D4;
+    justify-content: center;
+    align-items: center;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.signup a{
+    color: #ffffff;
+    font-weight: 700;;
+    text-decoration: none;
+}
+
+.media {
+    margin: 50px 0 50px 0;
+    text-align: center;
+    width: 100%;
+}
+
+.media-heading {
+    color: #4B6587;
+    font-style: italic;
+}
+
+.media-container {
+    margin: 50px 0 50px 0;
+    
+}
+
+.card-img {
+    display: flex;
+    justify-content: space-around;
+}
+
+.card-img img {
+    height: 70px;
+    width: auto;
+    margin-bottom: 20px;   
+}
+
+.card-txt {
+    display: flex;
+    justify-content: space-around;
+    margin: 10px 0 0 0;
+}
+
+
+.testimonial {
+    display: flex;
+    justify-content: center;
+}
+
+.testimonial-text {
+    max-width: 65%;
+}
+
+.testimonial-quote {
+    font-size: 1.5em;
+    margin: 0 0 20px 0;
+    font-style: italic;
+}
+
+.testimonial-client {
+    display: flex;
+    justify-content: end;  
+}
+
+.newsletter-container {
+    background-color:#0b8978ab;
+    border-radius: 8px;
+    display: flex;
+    align-items: center;
+    gap: 10%;
+    padding: 25px;
+    color: #ffffff;
+}
+
+.newsletter-text {
+    margin: 0 0 0 30px;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    background-color: #4B6587;
+    color: white;
+    padding: 20px;
+}
+
+
+
+
+
